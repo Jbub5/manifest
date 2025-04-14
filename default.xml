@@ -47,8 +47,14 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+  <!-- PenguinOS -->
+   <remote name="penguin"
+           fetch="https://github.com/Project-PenguinOS"
+           revision="vanity"/>
+
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
+  <include name="penguin.xml"/>
   <include name="obsolete.xml"/>
 
 </manifest>

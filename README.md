@@ -1,4 +1,4 @@
-# Paranoid Android #
+# PenguinOS #
 
 ## Setting up your machine ##
 
@@ -41,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/AOSPA/manifest -b vauxite
+$ repo init -u https://github.com/Project-PenguinOS/manifest -b vanity
 ```
 
 ### Downloading the source tree ###
@@ -140,23 +140,23 @@ $ git add -A
 $ git commit -a -s
 
 # Upload your changes
-$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/vauxite
+$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/uvite
 ```
 
 ### Extra commands for Gerrit ###
 
 ```bash
 # If you desire to upload a change as private use the below command
-$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/vauxite%private
+$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/uvite%private
 
 # If you desire to upload a change as W.I.P(Work in Progress) use the below command
-$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/vauxite%wip
+$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/uvite%wip
 
 # After that, if you want to make the commit public you can use the UI tools on AOSPA Gerrit website, or use the below command
-$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/vauxite%remove-private
+$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/uvite%remove-private
 
 # If you want to unset the W.I.P status on your commit, you can use UI tools on AOSPA Gerrit website, or use the below command
-$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/vauxite%ready
+$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/uvite%ready
 ```
 
 ### Making additional changes ###
